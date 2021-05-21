@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210416
 MAINTAINER LZ
 RUN apt-get update
 ARG DEBIAN_FRONTEND=noninteractive
