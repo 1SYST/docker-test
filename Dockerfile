@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 MAINTAINER LZ
 RUN apt-get update
 ARG DEBIAN_FRONTEND=noninteractive
