@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 MAINTAINER LZ
 RUN apt-get update
 ARG DEBIAN_FRONTEND=noninteractive
