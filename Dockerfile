@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 MAINTAINER LZ
 RUN apt-get update
 ARG DEBIAN_FRONTEND=noninteractive
